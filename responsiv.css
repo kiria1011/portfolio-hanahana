@@ -1,0 +1,156 @@
+@charset "UTF-8";
+@media screen and (max-width: 1100px) {
+  .menu_content {
+    margin: 5% 10% 0;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .about_content {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center; 
+    margin: 5% 1% 0;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .about {
+    height: 100%;
+  }
+  .about_content {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    margin: 5% 1% 0;
+  }
+  .about_description {
+    margin: 5% 0;
+    padding:0 12%;
+    text-align: center;
+    width: 100%;
+    line-height: 3rem;
+    order: 2;
+  }
+  .about_photo {
+    width: 100%;
+    height: 100%;
+    padding:0 20%;
+    order: 1;
+  }
+  .about_photo img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 896px) {
+  .swiper-slide img {
+    height: 250px;
+  }
+  .access {
+    height: auto;
+  }
+  .access_content {
+    display:flex;
+    flex-direction: column;
+  }
+  .access_content {
+    margin: 4% 10% 0;
+    padding-bottom: 10rem;
+    display:flex;
+    justify-content: center;
+  }
+  .access_map {
+    width: 100%;
+  }
+  .access_description {
+    width: 100%;
+    padding: initial;
+    position: relative;
+  }
+  .access_description a {
+    bottom: -19%;
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 800px) {
+  header {
+    margin: 0;
+  }
+  .header_content {
+    padding-right: 0;
+  }
+  .header_left h1 {
+    font-size: 3rem;
+  }
+  .header_right_high,.header_right_low {
+    display: none;
+}
+#hg {
+  display: block;
+}
+.food_container {
+  flex-direction: column;
+}
+.food_img {
+  width: 100%;
+  height: auto;
+}
+.food_img img {
+  border-radius: 10px;
+}
+.food_description {
+  width: 100%;
+  margin-left: 0; 
+}
+.food_description dt{
+  padding-top: 1.5rem;
+}
+.food_description dd{
+  padding-top: 1.5rem;
+}
+footer {
+  padding-bottom: 5rem;
+}
+}
+@media screen and (max-width: 700px) {
+  .drink_content {
+    flex-direction: column;
+  }
+  .softdrink_content {
+    width: 100%;
+    height: auto;
+  }
+  .alcohol_content {
+    width: 100%;
+    height: auto;
+  }
+}
+@media screen and (max-width: 600px) {
+  .header_left h1 {
+    font-size: 2.5rem;
+  }
+  .contact_wrapper {
+    width: 80%;
+    height: 70%;
+  }
+  .call_container a {
+    font-size: 4vw;
+  } 
+  .call_container p {
+    padding-top: 1rem;
+  } 
+  .footer_left {
+    padding-right: 50px;
+    font-size: 1rem;
+    text-shadow: 5px 5px 10px rgb(127, 223, 250);
+  }
+  .footer_right {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 480px) {
+}
